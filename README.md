@@ -1,4 +1,5 @@
-# Simple Oneliner Setup for Selenoid Grid
+# Selenoid Setup
+This repo's intent is to be able to provide simpler ways to setup selenoid based grid. Please see [selenoid](https://aerokube.com/selenoid-ui/latest/) for additional details about selenoid.
 
 > This is verified to work on Ubuntu machines. It should work just fine on other linux flavours. Please open issues if it does not!
 
@@ -9,5 +10,10 @@ sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/segrid/selenoi
 ```
 
 ## Usage
+Towards the end of installation, install script will print actuals URL for both selenoid UI and selenium webdriver.
 
-Once installation is complete, Selenoid UI will be available at http://\<private-ip\>:8080/. http://\<private-ip\>:4444/wd/hub
+Selenoid UI:
+> http://\<private-ip\>:8080/
+
+URL for Selenium Remote WebDriver:
+> http://\<private-ip\>:4444/wd/hub
